@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngd-tree-ui": [
+        "dist/ngd-tree-ui/ngd-tree-ui",
+        "dist/ngd-tree-ui"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
