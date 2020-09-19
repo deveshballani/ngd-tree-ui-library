@@ -6,9 +6,9 @@
             [ngClass]="{'expended': node.isExpended, 'visibility': node.children && node.children.length > 0, 'hidden': !node.children || node.children.length === 0}">></span>
             <span class="name" (click)="selctionChange(node)">{{node.name}}</span>
         </div>
-        <lib-ngd-tree-ui
+        <ngd-tree-ui
         *ngIf="node.children && node.isExpended"
         (selectionChange)="onChange($event)"
-        [nodes]="node.children"></lib-ngd-tree-ui>
+        [nodes]="node.children"></ngd-tree-ui>
     </li>
 </ul>
