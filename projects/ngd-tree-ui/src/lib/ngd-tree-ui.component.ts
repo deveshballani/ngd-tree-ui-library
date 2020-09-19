@@ -2,7 +2,7 @@ import { Component, Input, OnInit, Output, EventEmitter, ViewEncapsulation } fro
 import { TreeNode } from './models/tree-node';
 
 @Component({
-  selector: 'lib-ngd-tree-ui',
+  selector: 'ngd-tree-ui',
   templateUrl: './ngd-tree-view.component.html',
   styleUrls: ['./ngd-tree-ui.scss'],
   encapsulation: ViewEncapsulation.None
