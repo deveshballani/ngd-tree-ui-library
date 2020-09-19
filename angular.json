@@ -19,7 +19,10 @@
             "production": {
               "tsConfig": "projects/ngd-tree-ui/tsconfig.lib.prod.json"
             }
-          }
+          },
+          "styles": [
+            "src/styles.css"
+          ]
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",

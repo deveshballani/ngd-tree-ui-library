@@ -1,0 +1,26 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 25px;
+}
+
+.name {
+    padding: 5px 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.visiblity {
+    visibility: visible;
+}
+.hidden {
+    visibility: hidden;
+}
+.arrow {
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.3s all;
+}
+
+.arrow.expended {
+    transform: rotate(90deg);
+}
